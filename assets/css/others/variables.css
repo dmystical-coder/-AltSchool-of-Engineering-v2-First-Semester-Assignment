@@ -1,0 +1,13 @@
+:root{
+    --primary-100: #3284FF;
+    --primary-200: #4991FF;
+    --primary-300-base: #0065FE;
+    --text-color-main-text: #141414;
+    --neutral: #FFFFFF;
+    --neutral-800: #112232;
+    --neutral-900: #071827;
+    --primary-400: #005AE2;
+    --linear-gradient: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
+    --black-100: #D6D6D6;
+    --unknown: #001F3F
+}

@@ -1,0 +1,44 @@
+/* pages */
+@import url('./pages/index.css');
+
+/* components */
+
+/* utilities */
+@import url('./others/font.css');
+@import url('./others/variables.css');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.page{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.hero__header{
+    margin-top: 0.75rem;
+}
+
+.hero__content{
+    margin-top: 6.63rem;
+    padding: 0 6rem;
+    text-align: center;
+}
+
+.hero__image{
+    background: url(../images/bubble-bg.png);
+    
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
