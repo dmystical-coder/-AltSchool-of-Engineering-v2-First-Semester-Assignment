@@ -1,25 +1,36 @@
 @import url("https://fonts.cdnfonts.com/css/gilroy-bold");
 
-.nav__link {
+.nav__btns a,
+a.active,
+a.btn {
+  font-size: 1rem;
+  font-family: "Gilroy-SemiBold", sans-serif;
+}
+
+.nav__links > a {
   font-size: 1.125rem;
   font-family: "Gilroy-Medium", sans-serif;
 }
-.cta__button {
-  font-size: 1rem;
-  font-family: "Gilroy-Heavy", sans-serif;
-}
-.cta__button_primary {
-  line-height: 0.75rem;
-}
 
-.hero-content__title {
+.hero-content__heading {
+  font-family: "Gilroy-Bold", sans-serif;
   font-size: 3rem;
-  font-family: 'Gilroy-Bold', sans-serif;
-  line-height: 6rem;
+  line-height: 6rem; /* 200% */
 }
 
-.hero-content__paragraph{
-    font-size: 1.125rem;
-    font-family: 'Gilroy-Medium', sans-serif;
-    line-height: 1.75rem;
+.hero-content__heading > span {
+  position: relative;
+  color: var(--primary-400);
+}
+
+.hero-content__heading > span img {
+  position: absolute;
+  left: 4.5rem;
+  bottom: -1rem;
+}
+
+.hero-content__paragraph {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem; /* 155.556% */
 }
